@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,200;0,300;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel = "icon" href = "./img/icon.png" type = "image">
+
+    <title>Bulls and Cows game</title>
+</head>
+<body>
+
+    <div id = "theBiggest">
+
+        <div id = "firstHeader">Welcome to the Bulls and Cows game!</div>
+
+        <ul>
+            <span id = "rules">Rules:</span>
+            <li>The program thinks of 4 differents numbers.</li>
+            <li>Your task is to guess values of numbers and their places in a row: you enter 4 differents numbers and the program tells you how many bulls and cows have you got.</li>
+            <li>If you guessed only a value of a number right (which means this number is in a row but not on this place), you'll get a cow. If you guessed both a value and a place of a number you'll get a bull.</li>
+            <li>Collect 4 bulls and you'll be the winner!</li>
+            <li>Attention: you have only 8 attempts.</li>
+        </ul>
+
+        <label for = "userInput">Please, enter 4 different numbers from 0 to 9</label>
+        <input type = "number" placeholder="0123" id = "userInput">
+        <button id = "check">Check</button>
+        <div id = "output"></div>
+        <div id = "winOrLose"></div>
+
+    </div>
+    
+    <script src = "./script.js"></script>
+
+</body>
+</html>

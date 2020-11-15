@@ -1,0 +1,101 @@
+body {
+    background-image: url(./img/back.jpg);
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#theBiggest {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 700px;
+    width: 1000px;
+    font-weight: 300;
+    font-size: 21px;
+    color: white;
+    padding: 20px;
+    line-height: 30px;
+    
+}
+
+#firstHeader {
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+
+li {
+    list-style-type: square;
+}
+
+#rules, label {
+    font-weight: 500;
+}
+
+label {
+    padding-left: 8px;
+}
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+#output {
+    padding: 7px;
+}
+
+#winOrLose {
+    color: rgb(238, 255, 0);
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+#userInput {
+    background-color: rgb(210, 164, 214);
+}
+
+#check, #restartBtn{
+    font-family: 'Montserrat Alternates', sans-serif;
+    position: relative;
+    width: 5em;
+    height: 2em;
+    text-align: center;
+    text-shadow: 0 -1px 1px #777;
+    color: #fff;   
+    border-radius: 5px;
+    box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em rgb(255, 255, 255);
+    background: linear-gradient(#e7dcdf, #be959f 48%, #ac7986 52%, #c47287);
+    cursor: pointer;
+    outline: none;
+}
+#check:active {
+    top: .1em;
+    left: .1em;
+    box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+  }
+#check:disabled {
+    background: rgba(150, 127, 127, 0.281);
+    box-shadow: none;
+    cursor: default;
+}
+
+#restartBtn {
+    font-size: 20px;
+    width: 200px;
+    height: 30px;
+    position: relative;
+    left: 40%;
+    transform: translate(-60%, 0);
+}
+
+
+
